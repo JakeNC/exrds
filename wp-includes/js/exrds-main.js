@@ -8,6 +8,13 @@ jQuery(document).ready(function(){
         }, 800, 'linear');
     });
 
+
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        alert('you\'re on mobile');
+    } else {
+        alert('you\'re on a computer');
+    }
+
 // make some waves.
     var ocean = document.getElementById("ocean"),
         waveWidth = 10,
@@ -58,9 +65,5 @@ jQuery(document).ready(function(){
         }
 
         jQuery('#fading').css('opacity',opacity);
-
-        if (opacity === 0) {
-            s
-        }
     });
 });
