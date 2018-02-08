@@ -87,7 +87,7 @@
     opacity: 0.5;
     display: inline-block;
     height: 35%;
-    width: 10px;
+    width: 16px;
     z-index: 5 !important;
     animation-name: dostuff;
     animation-duration: 10.74159s;
@@ -101,7 +101,7 @@
     opacity: 0.3;
     display: inline-block;
     height: 27%;
-    width: 10px;
+    width: 16px;
     z-index: 5 !important;
     animation-name: dostuff_mid;
     animation-duration: 11.42s;
@@ -114,7 +114,7 @@
     background: #10558b;
     display: inline-block;
     height: 17%;
-    width: 10px;
+    width: 16px;
     z-index: 5 !important;
     animation-name: dostuff_bot;
     animation-duration: 10.54s;
@@ -124,7 +124,7 @@
 .wave_light {
     position: absolute;bottom: 10%;background: #fff;opacity: 0.3;display: inline-block;
     height: 32%;
-    width: 10px;
+    width: 16px;
     z-index: 5 !important;
     animation-name: dostuff_light;
     animation-duration: 10s;
