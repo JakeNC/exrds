@@ -1,0 +1,155 @@
+.construction-body {
+    font-family: 'Patua One', serif;
+    color: #212121;
+    overflow-x: hidden;
+}
+
+.exrds-construction-first-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.exrds-construction-title {
+    z-index: 1;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-40%);
+    font-size: 60px;
+}
+
+.exrds-construction-title-uw {
+    z-index: 1;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.exrds-construction-main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #10558b;
+    color: #ffffff;
+    margin-top: 100vh;
+    height: 80vh;
+}
+
+.exrds-construction-footer {
+    font-family: 'Raleway', sans-serif;
+    position: fixed;
+    top: 95%;
+    left: 80%;
+    font-size: 12px;
+    opacity: 0.5;
+    color: #ffffff;
+    z-index: 10;
+
+}
+/* CSS - Cascading Style Sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=1000u0k00490kii01bH5v02ds0p */
+
+/* Feel free to copy&paste color codes to your application */
+
+
+/* As hex codes */
+
+.color-primary-0 { color: #212121 }	/* Main Primary color */
+.color-primary-1 { color: #929090 }
+.color-primary-2 { color: #5D5D5D }
+.color-primary-3 { color: #000000 }
+.color-primary-4 { color: #030202 }
+
+
+
+/* As RGBa codes */
+
+.rgba-primary-0 { color: rgba( 33, 33, 33,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(146,144,144,1) }
+.rgba-primary-2 { color: rgba( 93, 93, 93,1) }
+.rgba-primary-3 { color: rgba(  0,  0,  0,1) }
+.rgba-primary-4 { color: rgba(  3,  2,  2,1) }
+
+
+/*color, position, internal time*/
+#ocean { z-index: 100;}
+.wave {
+    position: absolute;
+    bottom: 0;
+    background: #7ecef4;
+    opacity: 0.5;
+    display: inline-block;
+    height: 35%;
+    width: 10px;
+    z-index: 5 !important;
+    animation-name: dostuff;
+    animation-duration: 10.74159s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+}
+.wave_middle {
+    position: absolute;
+    bottom: 0;
+    background: #0068b7;
+    opacity: 0.3;
+    display: inline-block;
+    height: 27%;
+    width: 10px;
+    z-index: 5 !important;
+    animation-name: dostuff_mid;
+    animation-duration: 11.42s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+}
+.wave_bottom {
+    position: absolute;
+    bottom: 0;
+    background: #10558b;
+    display: inline-block;
+    height: 17%;
+    width: 10px;
+    z-index: 5 !important;
+    animation-name: dostuff_bot;
+    animation-duration: 10.54s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+}
+.wave_light {
+    position: absolute;bottom: 10%;background: #fff;opacity: 0.3;display: inline-block;
+    height: 32%;
+    width: 10px;
+    z-index: 5 !important;
+    animation-name: dostuff_light;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+}
+
+/* amplitude animation*/
+@keyframes dostuff {
+    0% {height: 25%;}
+    50% {height: 38%;}
+    100% {height: 25%;}
+}
+@keyframes dostuff_mid {
+    0% {height: 17%;}
+    50% {height: 26%;}
+    100% {height: 17%;}
+}
+@keyframes dostuff_bot {
+    0% {height: 7%;}
+    50% {height: 13%;}
+    100% {height: 7%;}
+}
+@keyframes dostuff_light {
+    0% {height: 1%;bottom: 21%;}
+    50% {height: 4%;bottom: 25%;}
+    100% {height: 1%;bottom: 21%;}
+}
