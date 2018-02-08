@@ -10,9 +10,9 @@ jQuery(document).ready(function(){
 
     console.log(screen.width);
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        alert('you\'re on mobile');
-    } else {
+    // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    //     alert('you\'re on mobile');
+    // } else {
         // make some waves.
         var ocean = document.getElementById("ocean"),
             waveWidth = 10,
@@ -43,7 +43,7 @@ jQuery(document).ready(function(){
             wave_light.style.left = i * waveWidth + "px";
             wave_light.style.webkitAnimationDelay = 0 + "s";
 
-        }
+        // }
         ocean.appendChild(docFrag);
     }
 
