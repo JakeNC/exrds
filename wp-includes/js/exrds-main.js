@@ -10,9 +10,10 @@ jQuery(document).ready(function(){
 
     var ocean = document.getElementById("ocean");
 
+        var ratio = window.devicePixelRatio || 1;
 
         var waveWidth = 16,
-            waveCount = Math.floor((screen.width + 100)/waveWidth),
+            waveCount = Math.floor((screen.width * ratio)/waveWidth),
             docFrag = document.createDocumentFragment();
         for(var i = 0; i < waveCount; i++){
             var wave = document.createElement("div");
