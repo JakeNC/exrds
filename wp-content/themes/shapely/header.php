@@ -22,3 +22,6 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
+    <div>
+        Here be the nav bar
+    </div>

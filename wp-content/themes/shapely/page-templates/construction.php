@@ -28,7 +28,7 @@ Template Post Type: post, page
         <div class="container">
             <div class="row">
                 <div class="exrds-construction-contact">
-                    In the meantime, check us out on social media.<br>
+                    In the meantime, check out ExRDS on social media.<br>
                     <div class="exrds-construction-social">
                         <div class="col-md-4"></div>
                         <div class="col-md-2">

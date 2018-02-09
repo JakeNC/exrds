@@ -4,6 +4,12 @@
     overflow-x: hidden;
 }
 
+#dive-down {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none
+}
+
 .exrds-construction-first-panel {
     position: absolute;
     top: 0;
@@ -13,7 +19,7 @@
 }
 
 .exrds-construction-title {
-    z-index: 1;
+    z-index: 0;
     text-align: center;
     position: fixed;
     top: 40%;
@@ -59,8 +65,8 @@
 }
 
 .exrds-construction-social a:hover {
-    color: #7ecef4;
-    opacity: 0.9;
+    color: #ffffff;
+    opacity: 1;
 }
 
 .exrds-construction-social a:active {
