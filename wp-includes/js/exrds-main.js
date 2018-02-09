@@ -12,7 +12,7 @@ jQuery(document).ready(function(){
 
 
         // make some waves.
-        var ratio = window.devicePixelRatio || 1;
+        var ratio = window.devicePixelRatio;
 
         var waveWidth = 16,
             waveCount = Math.floor((screen.width * ratio)/waveWidth),
