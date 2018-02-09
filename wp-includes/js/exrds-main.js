@@ -8,13 +8,14 @@ jQuery(document).ready(function(){
         }, 800, 'linear');
     });
 
-    console.log(screen.width);
+    var ocean = document.getElementById("ocean");
 
-
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        jQuery(ocean.hide());
+    } else {
         // make some waves.
-        var ocean = document.getElementById("ocean"),
-            waveWidth = 16,
-            waveCount = Math.floor(screen.width/waveWidth),
+        var waveWidth = 16,
+            waveCount = Math.floor((screen.width)/waveWidth),
             docFrag = document.createDocumentFragment();
         for(var i = 0; i < waveCount; i++){
             var wave = document.createElement("div");
@@ -27,7 +28,7 @@ jQuery(document).ready(function(){
             wave_middle.className += " wave_middle";
             docFrag.appendChild(wave_middle);
             wave_middle.style.left = i * waveWidth + "px";
-            wave_middle.style.webkitAnimationDelay = (i/91) + "s";
+            wave_middle.style.webkitAnimationDelay = (i/81) + "s";
 
             var wave_bottom = document.createElement("div");
             wave_bottom.className += " wave_bottom";
@@ -41,7 +42,7 @@ jQuery(document).ready(function(){
             wave_light.style.left = i * waveWidth + "px";
             wave_light.style.webkitAnimationDelay = 0 + "s";
 
-
+        }
         ocean.appendChild(docFrag);
     }
 
@@ -51,18 +52,22 @@ jQuery(document).ready(function(){
 
     var fadeStart = 0;
     var fadeUntil = (jQuery(window).height() / 2);
-
-
+    var fading = jQuery('#fading');
     jQuery(window).bind('scroll', function(){
         var offset = jQuery(document).scrollTop();
-        var opacity=0;
+        var opacity = 0;
 
         if (offset <= fadeStart){
-            opacity=1;
+            opacity = 1;
         } else if (offset <= fadeUntil){
             opacity = 1 - offset / fadeUntil;
         }
-
-        jQuery('#fading').css('opacity',opacity);
+        if (opacity === 0) {
+            fading.hide();
+        } else {
+            fading.show();
+        }
+        fading.css('opacity',opacity);
     });
+
 });

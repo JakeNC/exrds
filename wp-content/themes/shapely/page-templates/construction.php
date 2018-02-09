@@ -22,22 +22,40 @@ Template Post Type: post, page
             <h4 style="margin-bottom: 20px;">We'll be back soon.</h4>
             <a href="#" id="dive-down"><i class="fa fa-angle-down"></i></a>
         </div>
-        <div class="exrds-construction-footer">
-            <?php echo "&copy; " . date("Y") . " Extended Range Diving Services";?>
-        </div>
         <div id="ocean"></div>
     </div>
     <div class="exrds-construction-main" id="main">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    Contact Us
+                <div class="exrds-construction-contact">
+                    In the meantime, check us out on social media.<br>
+                    <div class="exrds-construction-social">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-2">
+                            <a href="https://www.facebook.com/Extended-Range-Diving-Services-880993775406493/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa fa-facebook"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="https://www.instagram.com/extendedrangedivingservice/?hl=en" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa fa-instagram"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    bar
-                </div>
+
             </div>
         </div>
+    </div>
+    <div class="exrds-construction-footer">
+        <?php echo "&copy; " . date("Y") . " Extended Range Diving Services";?>
     </div>
 </body>
 </html>

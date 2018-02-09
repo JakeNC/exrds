@@ -41,6 +41,32 @@
     height: 80vh;
 }
 
+.exrds-construction-contact {
+    padding-top:100px;
+    z-index: 1;
+    text-align: center;
+    font-size: 30px;
+}
+
+.exrds-construction-social {
+    padding-top: 60px;
+}
+
+.exrds-construction-social a {
+    margin: 20px;
+    color: #7ecef4;
+    opacity: 0.5;
+}
+
+.exrds-construction-social a:hover {
+    color: #7ecef4;
+    opacity: 0.9;
+}
+
+.exrds-construction-social a:active {
+    color: #fff !important;
+}
+
 .exrds-construction-footer {
     font-family: 'Raleway', sans-serif;
     position: fixed;
