@@ -12,8 +12,10 @@ jQuery(document).ready(function(){
 
 
         // make some waves.
+        var ratio = window.devicePixelRatio || 1;
+
         var waveWidth = 16,
-            waveCount = Math.floor((3000)/waveWidth),
+            waveCount = Math.floor((screen.width * ratio)/waveWidth),
             docFrag = document.createDocumentFragment();
         for(var i = 0; i < waveCount; i++){
             var wave = document.createElement("div");
