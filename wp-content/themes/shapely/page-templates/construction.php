@@ -14,6 +14,9 @@ Template Post Type: post, page
     <script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
     <script type='text/javascript' src='/wp-includes/js/exrds-main.js'></script>
     <link rel='stylesheet' id='font-awesome-css'  href='/wp-content/themes/shapely/assets/css/font-awesome.min.css?ver=4.9.2' type='text/css' media='all' />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 </head>
 <body class="construction-body">
     <div class="exrds-construction-first-panel">
