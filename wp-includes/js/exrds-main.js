@@ -10,9 +10,7 @@ jQuery(document).ready(function(){
 
     var ocean = document.getElementById("ocean");
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        jQuery(ocean.hide());
-    } else {
+
         // make some waves.
         var waveWidth = 16,
             waveCount = Math.floor((screen.width)/waveWidth),
@@ -42,7 +40,7 @@ jQuery(document).ready(function(){
             wave_light.style.left = i * waveWidth + "px";
             wave_light.style.webkitAnimationDelay = 0 + "s";
 
-        }
+
         ocean.appendChild(docFrag);
     }
 
