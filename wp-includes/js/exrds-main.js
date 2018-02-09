@@ -13,7 +13,7 @@ jQuery(document).ready(function(){
 
         // make some waves.
         var waveWidth = 16,
-            waveCount = Math.floor((screen.width)/waveWidth),
+            waveCount = Math.floor((3000)/waveWidth),
             docFrag = document.createDocumentFragment();
         for(var i = 0; i < waveCount; i++){
             var wave = document.createElement("div");
