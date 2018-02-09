@@ -30,7 +30,7 @@ Template Post Type: post, page
                 <div class="exrds-construction-contact">
                     In the meantime, check out ExRDS on social media.<br>
                     <div class="exrds-construction-social">
-                        <div class="col-md-4"></div>
+                        <div class="col-xs-4"></div>
                         <div class="col-xs-2">
                             <a href="https://www.facebook.com/Extended-Range-Diving-Services-880993775406493/" target="_blank">
                                 <span class="fa-stack fa-lg">
@@ -47,7 +47,7 @@ Template Post Type: post, page
                                 </span>
                             </a>
                         </div>
-                        <div class="col-md-4"></div>
+                        <div class="col-xs-4"></div>
                     </div>
                 </div>
 
