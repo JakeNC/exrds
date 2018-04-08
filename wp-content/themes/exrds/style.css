@@ -1,0 +1,197 @@
+/*
+layout
+ */
+
+body {
+    color: #46494c;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body a {
+    color: #00C1E0
+}
+
+.exrds-escape-container {
+    margin-left: -15px;
+}
+.navbar {
+    background-color: #46494c;
+    border: none;
+    border-radius: unset;
+    z-index: 20;
+}
+
+.navbar a{
+    color: #fff !important;;
+}
+
+.navbar-nav > .open > a {
+    background-color: #595c5f !important;
+}
+
+.dropdown-menu {
+    background-color: #46494c;
+    border-color: #46494c;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #595c5f !important;
+}
+
+.exrds-nav-logo {
+    border-radius: 5px;
+    height: 40px;
+    margin-top: -10px;
+}
+.active a{
+    background-color: #595c5f !important;
+    color: #fff !important;
+}
+
+.exrds-masthead {
+    margin-top: -20px;
+    max-height: 400px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.exrds-title {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    color: #fff;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    z-index: 0;
+}
+
+.exrds-mission {
+    padding-bottom: 30px;
+}
+
+.exrds-statement {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.exrds-statement a:hover {
+    opacity: .5;
+}
+#statement-0 {
+    background-color: #01628E;
+}
+
+#statement-1 {
+    background-color: #00C1E0;
+}
+
+#statement-2 {
+    background-color: #00E9FD;
+}
+
+
+
+.exrds-circle {
+    text-align: center;
+    color: #fff;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: none;
+}
+
+.exrds-circle :hover {
+    opacity: .25;
+}
+
+.exrds-p {
+    font-size: 1.1em;
+    color: #595C5F;
+}
+
+.btn-primary {
+    background-color: #4c5c68;
+}
+
+.exrds-logo-container {
+    background-color: #e4e9ec;
+    height: 250px;
+}
+
+.exrds-logo {
+    min-height: 150px;
+    max-width: 33%;
+    min-width:300px;
+    max-height: 250px;
+    display: block;
+    margin-top:-150px;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: 10;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.exrds-header hr {
+    width: 30px;
+    border: solid 2px #00C1E0;
+}
+
+.exrds-about-us {
+    font-size: 1.1em;
+}
+
+.exrds-about-bio {
+    padding-top: 15px;
+}
+
+.exrds-crew {
+    /*margin-left: 15px;*/
+}
+
+.exrds-crew-left h3 {
+    margin-left: 15px;
+}
+
+.exrds-crew-right h3{
+    text-align: right;
+    margin-right: 45px;
+}
+
+.exrds-contact-info {
+    padding-top: 50px;
+    font-size:1.2em;
+}
+
+.exrds-contact-info > .row {
+    margin-bottom:10px;
+}
+
+.thumbnail {
+    min-height: 400px;
+    -webkit-box-shadow: 3px 3px 5px 0 #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 0 #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 0 #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */}
+
+/*
+widgets
+ */
+.ig-pics {
+    list-style-type: none;
+}
+
+.ig-item {
+    padding: 10px;
+}
+
+.ig-img {
+
+}
+
+.widget-title {
+    text-align: center;
+}
+
+.widget-content {
+    min-height:300px;
+}
+
